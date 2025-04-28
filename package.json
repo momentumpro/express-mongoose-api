@@ -1,0 +1,31 @@
+{
+  "name": "be-user-crud",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/momentumpro/express-mongoose-be-api.git"
+  },
+  "keywords": [],
+  "author": "Adan Rosales",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/momentumpro/express-mongoose-be-api/issues"
+  },
+  "homepage": "https://github.com/momentumpro/express-mongoose-be-api#readme",
+  "description": "",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "crud": "^0.0.28",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.14.0",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  }
+}
