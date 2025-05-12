@@ -11,11 +11,7 @@ const app = express();
 
 
 
-app.use(cors({
-    origin: 'https://fe-example.onrender.com',
-    credentials: true
-}));
-
+app.use(cors());
 
 connectDB();
 
