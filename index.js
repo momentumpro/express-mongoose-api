@@ -11,7 +11,7 @@ const app = express();
 
 
 const corsOptions = {
-    origin: "*",
+    origin: "https://onrender.com",
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
 };
 
@@ -33,7 +33,7 @@ app.use('/api/orders', orderRoutes);
 
 
 // starting server
-const PORT = process.env.PORT || 4000;
+const PORT = process.env.PORT || 80;
 app.listen(PORT, () => {
     console.log(` Running server on http://localhost:${PORT}`);
 });
