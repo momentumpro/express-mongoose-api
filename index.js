@@ -12,12 +12,10 @@ const app = express();
 
 
 app.use(cors({
-    origin: 'https://fe-example.onrender.com',
+    origin: 'https://fe-example.onrender.com/',
     credentials: true
 }));
 
-
-app.options('*', cors());
 
 connectDB();
 
