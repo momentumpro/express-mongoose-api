@@ -7,7 +7,7 @@
   },
   "servers": [
     {
-      "url": "https://express-mongoose-be-api.onrender.com/api"
+      "url": "https://eshop-orders-api.onrender.com/api"
     }
   ],
   "paths": {

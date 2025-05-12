@@ -10,14 +10,12 @@ const cors = require('cors');
 const app = express();
 
 
-app.use(
-    cors({
-        origin: ["https://localhost:7500", "https://fe-example.onrender.com/"],
-        methods: ["GET", "POST", "PUT", "DELETE, OPTIONS"],
-        credentials: true,
-    })
-);
+const corsOptions = {
+    origin: "*",
+    methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+};
 
+app.use(cors(corsOptions));
 
 connectDB();
 
